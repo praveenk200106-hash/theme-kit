@@ -1,0 +1,228 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "style": {
+      "type": "string",
+      "enum": [
+        "default",
+        "new-york",
+        "radix-vega",
+        "radix-nova",
+        "radix-maia",
+        "radix-lyra",
+        "radix-mira",
+        "radix-luma",
+        "radix-sera",
+        "radix-rhea",
+        "base-vega",
+        "base-nova",
+        "base-maia",
+        "base-lyra",
+        "base-mira",
+        "base-luma",
+        "base-sera",
+        "base-rhea",
+        "aria-vega",
+        "aria-nova",
+        "aria-maia",
+        "aria-lyra",
+        "aria-mira",
+        "aria-luma",
+        "aria-sera",
+        "aria-rhea",
+        "radix-minimal",
+        "radix-swiss",
+        "radix-monochrome",
+        "radix-material",
+        "radix-materialyou",
+        "radix-neumorphism",
+        "radix-skeuomorphic",
+        "radix-clay",
+        "radix-glass",
+        "radix-liquid",
+        "radix-aurora",
+        "radix-neobrutal",
+        "radix-sticker",
+        "radix-brutalist",
+        "radix-memphis",
+        "radix-retro",
+        "radix-y2k",
+        "radix-pixel",
+        "radix-terminal",
+        "radix-cyberpunk",
+        "radix-dashboard",
+        "radix-playful",
+        "radix-sketchy",
+        "radix-luxury",
+        "radix-organic",
+        "radix-maximalist",
+        "radix-ios",
+        "radix-fluent",
+        "radix-carbon",
+        "base-minimal",
+        "base-swiss",
+        "base-monochrome",
+        "base-material",
+        "base-materialyou",
+        "base-neumorphism",
+        "base-skeuomorphic",
+        "base-clay",
+        "base-glass",
+        "base-liquid",
+        "base-aurora",
+        "base-neobrutal",
+        "base-sticker",
+        "base-brutalist",
+        "base-memphis",
+        "base-retro",
+        "base-y2k",
+        "base-pixel",
+        "base-terminal",
+        "base-cyberpunk",
+        "base-dashboard",
+        "base-playful",
+        "base-sketchy",
+        "base-luxury",
+        "base-organic",
+        "base-maximalist",
+        "base-ios",
+        "base-fluent",
+        "base-carbon",
+        "aria-minimal",
+        "aria-swiss",
+        "aria-monochrome",
+        "aria-material",
+        "aria-materialyou",
+        "aria-neumorphism",
+        "aria-skeuomorphic",
+        "aria-clay",
+        "aria-glass",
+        "aria-liquid",
+        "aria-aurora",
+        "aria-neobrutal",
+        "aria-sticker",
+        "aria-brutalist",
+        "aria-memphis",
+        "aria-retro",
+        "aria-y2k",
+        "aria-pixel",
+        "aria-terminal",
+        "aria-cyberpunk",
+        "aria-dashboard",
+        "aria-playful",
+        "aria-sketchy",
+        "aria-luxury",
+        "aria-organic",
+        "aria-maximalist",
+        "aria-ios",
+        "aria-fluent",
+        "aria-carbon"
+      ]
+    },
+    "tailwind": {
+      "type": "object",
+      "properties": {
+        "config": {
+          "type": "string"
+        },
+        "css": {
+          "type": "string"
+        },
+        "baseColor": {
+          "type": "string"
+        },
+        "cssVariables": {
+          "type": "boolean"
+        },
+        "prefix": {
+          "type": "string"
+        }
+      },
+      "required": ["config", "css", "baseColor", "cssVariables"]
+    },
+    "rsc": {
+      "type": "boolean"
+    },
+    "tsx": {
+      "type": "boolean"
+    },
+    "iconLibrary": {
+      "type": "string"
+    },
+    "aliases": {
+      "type": "object",
+      "properties": {
+        "utils": {
+          "type": "string"
+        },
+        "components": {
+          "type": "string"
+        },
+        "ui": {
+          "type": "string"
+        },
+        "lib": {
+          "type": "string"
+        },
+        "hooks": {
+          "type": "string"
+        }
+      },
+      "required": ["utils", "components"]
+    },
+    "menuColor": {
+      "type": "string",
+      "enum": [
+        "default",
+        "inverted",
+        "default-translucent",
+        "inverted-translucent"
+      ]
+    },
+    "menuAccent": {
+      "type": "string",
+      "enum": ["subtle", "bold"]
+    },
+    "rtl": {
+      "type": "boolean"
+    },
+    "registries": {
+      "type": "object",
+      "patternProperties": {
+        "^@": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "\\{name\\}"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "url": {
+                  "type": "string",
+                  "pattern": "\\{name\\}"
+                },
+                "params": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                },
+                "headers": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "string"
+                  }
+                }
+              },
+              "required": ["url"]
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "required": ["style", "tailwind", "rsc", "aliases"]
+}
