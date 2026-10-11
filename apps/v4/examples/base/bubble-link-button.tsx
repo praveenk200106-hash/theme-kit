@@ -6,7 +6,7 @@ import {
   Bubble,
   BubbleContent,
   BubbleGroup,
-} from "@/styles/base-rhea/ui/bubble"
+} from "@/styles/base-nova/ui/bubble"
 
 export function BubbleLinkButtonDemo() {
   return (

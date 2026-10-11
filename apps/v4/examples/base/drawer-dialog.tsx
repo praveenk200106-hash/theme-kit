@@ -4,7 +4,7 @@ import * as React from "react"
 import { cn } from "cn"
 
 import { useMediaQuery } from "@/hooks/use-media-query"
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Dialog,
   DialogContent,
@@ -12,7 +12,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "@/styles/base-rhea/ui/dialog"
+} from "@/styles/base-nova/ui/dialog"
 import {
   Drawer,
   DrawerClose,
@@ -22,9 +22,9 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@/styles/base-rhea/ui/drawer"
-import { Input } from "@/styles/base-rhea/ui/input"
-import { Label } from "@/styles/base-rhea/ui/label"
+} from "@/styles/base-nova/ui/drawer"
+import { Input } from "@/styles/base-nova/ui/input"
+import { Label } from "@/styles/base-nova/ui/label"
 
 export function DrawerDialogDemo() {
   const [open, setOpen] = React.useState(false)

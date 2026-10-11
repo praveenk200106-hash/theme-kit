@@ -14,7 +14,7 @@ import {
 
 import { createChat, getMessageText } from "@/lib/ai"
 import { MessageAnimated } from "@/components/message-animated"
-import { Button } from "@/styles/aria-rhea/ui/button"
+import { Button } from "@/styles/aria-nova/ui/button"
 import {
   Card,
   CardAction,
@@ -23,33 +23,33 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/aria-rhea/ui/card"
+} from "@/styles/aria-nova/ui/card"
 import {
   DropdownMenu,
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/styles/aria-rhea/ui/dropdown-menu"
+} from "@/styles/aria-nova/ui/dropdown-menu"
 import {
   Empty,
   EmptyDescription,
   EmptyHeader,
   EmptyMedia,
   EmptyTitle,
-} from "@/styles/aria-rhea/ui/empty"
+} from "@/styles/aria-nova/ui/empty"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupButton,
-} from "@/styles/aria-rhea/ui/input-group"
+} from "@/styles/aria-nova/ui/input-group"
 import {
   MessageScroller,
   MessageScrollerButton,
   MessageScrollerContent,
   MessageScrollerProvider,
   MessageScrollerViewport,
-} from "@/styles/aria-rhea/ui/message-scroller"
-import { Tooltip, TooltipTrigger } from "@/styles/aria-rhea/ui/tooltip"
+} from "@/styles/aria-nova/ui/message-scroller"
+import { Tooltip, TooltipTrigger } from "@/styles/aria-nova/ui/tooltip"
 
 const chat = createChat()
   .user(

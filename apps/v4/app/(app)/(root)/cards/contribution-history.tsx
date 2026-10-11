@@ -1,5 +1,5 @@
-import { Badge } from "@/styles/base-rhea/ui/badge"
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Badge } from "@/styles/base-nova/ui/badge"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Card,
   CardAction,
@@ -8,8 +8,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/base-rhea/ui/card"
-import { Item, ItemContent, ItemDescription } from "@/styles/base-rhea/ui/item"
+} from "@/styles/base-nova/ui/card"
+import { Item, ItemContent, ItemDescription } from "@/styles/base-nova/ui/item"
 
 const chartData = [
   { month: "Dec", amount: 800 },

@@ -2,8 +2,8 @@ import {
   Marker,
   MarkerContent,
   MarkerIcon,
-} from "@/styles/radix-rhea/ui/marker"
-import { Spinner } from "@/styles/radix-rhea/ui/spinner"
+} from "@/styles/radix-nova/ui/marker"
+import { Spinner } from "@/styles/radix-nova/ui/spinner"
 
 export function ShimmerMarker() {
   return (

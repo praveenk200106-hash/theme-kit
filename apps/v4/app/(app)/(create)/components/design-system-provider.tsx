@@ -16,7 +16,7 @@ import {
 } from "@/app/(app)/(create)/lib/search-params"
 
 const THEME_STYLE_ELEMENT_ID = "design-system-theme-vars"
-const MANAGED_BODY_CLASS_PREFIXES = ["style-", "base-color-"] as const
+const MANAGED_BODY_CLASS_PREFIXES = ["style-", "base-color-", "pick-"] as const
 const POINTER_CURSOR_CSS = `@layer base {
   ${POINTER_CURSOR_SELECTOR} {
     cursor: pointer;
@@ -161,7 +161,12 @@ export function DesignSystemProvider({
 
     // Iterate over a snapshot so removals do not affect traversal.
     removeManagedBodyClasses(body)
-    body.classList.add(`style-${style}`, `base-color-${baseColor}`)
+    body.classList.add(
+      `style-${style}`,
+      `base-color-${baseColor}`,
+      `pick-theme-${theme}`,
+      `pick-chart-${chartColor}`
+    )
 
     // Update font.
     // Always set --font-sans for the preview so the selected font is visible.
@@ -187,6 +192,7 @@ export function DesignSystemProvider({
     font,
     fontHeading,
     baseColor,
+    chartColor,
     selectedFont,
     selectedHeadingFont,
   ])

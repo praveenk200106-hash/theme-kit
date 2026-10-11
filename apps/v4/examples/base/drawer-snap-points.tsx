@@ -1,6 +1,6 @@
 "use client"
 
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Drawer,
   DrawerClose,
@@ -10,7 +10,7 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@/styles/base-rhea/ui/drawer"
+} from "@/styles/base-nova/ui/drawer"
 
 const SNAP_POINTS = ["31rem", 1]
 

@@ -14,16 +14,16 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/styles/base-rhea/ui/breadcrumb"
-import { Button } from "@/styles/base-rhea/ui/button"
-import { Card, CardContent, CardHeader } from "@/styles/base-rhea/ui/card"
+} from "@/styles/base-nova/ui/breadcrumb"
+import { Button } from "@/styles/base-nova/ui/button"
+import { Card, CardContent, CardHeader } from "@/styles/base-nova/ui/card"
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/styles/base-rhea/ui/dropdown-menu"
+} from "@/styles/base-nova/ui/dropdown-menu"
 import {
   Item,
   ItemContent,
@@ -31,7 +31,7 @@ import {
   ItemGroup,
   ItemMedia,
   ItemTitle,
-} from "@/styles/base-rhea/ui/item"
+} from "@/styles/base-nova/ui/item"
 
 export function Payments() {
   return (

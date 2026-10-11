@@ -17,12 +17,12 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/styles/base-rhea/ui/alert-dialog"
-import { Badge } from "@/styles/base-rhea/ui/badge"
-import { Button } from "@/styles/base-rhea/ui/button"
-import { ButtonGroup } from "@/styles/base-rhea/ui/button-group"
-import { Card, CardContent } from "@/styles/base-rhea/ui/card"
-import { Checkbox } from "@/styles/base-rhea/ui/checkbox"
+} from "@/styles/base-nova/ui/alert-dialog"
+import { Badge } from "@/styles/base-nova/ui/badge"
+import { Button } from "@/styles/base-nova/ui/button"
+import { ButtonGroup } from "@/styles/base-nova/ui/button-group"
+import { Card, CardContent } from "@/styles/base-nova/ui/card"
+import { Checkbox } from "@/styles/base-nova/ui/checkbox"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -31,23 +31,23 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/styles/base-rhea/ui/dropdown-menu"
-import { Field, FieldGroup } from "@/styles/base-rhea/ui/field"
+} from "@/styles/base-nova/ui/dropdown-menu"
+import { Field, FieldGroup } from "@/styles/base-nova/ui/field"
 import {
   InputGroup,
   InputGroupAddon,
   InputGroupInput,
   InputGroupText,
-} from "@/styles/base-rhea/ui/input-group"
-import { RadioGroup, RadioGroupItem } from "@/styles/base-rhea/ui/radio-group"
-import { Switch } from "@/styles/base-rhea/ui/switch"
+} from "@/styles/base-nova/ui/input-group"
+import { RadioGroup, RadioGroupItem } from "@/styles/base-nova/ui/radio-group"
+import { Switch } from "@/styles/base-nova/ui/switch"
 import {
   Tabs,
   TabsContent,
   TabsList,
   TabsTrigger,
-} from "@/styles/base-rhea/ui/tabs"
-import { Textarea } from "@/styles/base-rhea/ui/textarea"
+} from "@/styles/base-nova/ui/tabs"
+import { Textarea } from "@/styles/base-nova/ui/textarea"
 
 export function UIElements() {
   return (
@@ -117,7 +117,7 @@ export function UIElements() {
               </span>
               <span className="flex md:hidden style-sera:md:flex">Dialog</span>
             </AlertDialogTrigger>
-            <AlertDialogContent size="sm" className="theme-neutral">
+            <AlertDialogContent size="sm">
               <AlertDialogHeader>
                 <AlertDialogTitle>Allow accessory to connect?</AlertDialogTitle>
                 <AlertDialogDescription>

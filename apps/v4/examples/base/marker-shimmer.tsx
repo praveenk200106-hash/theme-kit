@@ -1,4 +1,4 @@
-import { Marker, MarkerContent } from "@/styles/base-rhea/ui/marker"
+import { Marker, MarkerContent } from "@/styles/base-nova/ui/marker"
 
 export function MarkerShimmerDemo() {
   return (

@@ -2,20 +2,20 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/styles/base-rhea/ui/avatar"
+} from "@/styles/base-nova/ui/avatar"
 import {
   Bubble,
   BubbleContent,
   BubbleGroup,
   BubbleReactions,
-} from "@/styles/base-rhea/ui/bubble"
-import { Marker, MarkerContent } from "@/styles/base-rhea/ui/marker"
+} from "@/styles/base-nova/ui/bubble"
+import { Marker, MarkerContent } from "@/styles/base-nova/ui/marker"
 import {
   Message,
   MessageAvatar,
   MessageContent,
   MessageFooter,
-} from "@/styles/base-rhea/ui/message"
+} from "@/styles/base-nova/ui/message"
 
 export function MessageDemo() {
   return (

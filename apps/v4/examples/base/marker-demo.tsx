@@ -1,7 +1,7 @@
 import { GitBranchIcon, SearchIcon } from "lucide-react"
 
-import { Marker, MarkerContent, MarkerIcon } from "@/styles/base-rhea/ui/marker"
-import { Spinner } from "@/styles/base-rhea/ui/spinner"
+import { Marker, MarkerContent, MarkerIcon } from "@/styles/base-nova/ui/marker"
+import { Spinner } from "@/styles/base-nova/ui/spinner"
 
 export function MarkerDemo() {
   return (

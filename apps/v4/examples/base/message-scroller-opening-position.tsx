@@ -2,8 +2,8 @@
 
 import * as React from "react"
 
-import { Bubble, BubbleContent } from "@/styles/base-rhea/ui/bubble"
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Bubble, BubbleContent } from "@/styles/base-nova/ui/bubble"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Card,
   CardContent,
@@ -11,8 +11,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/base-rhea/ui/card"
-import { Message, MessageContent } from "@/styles/base-rhea/ui/message"
+} from "@/styles/base-nova/ui/card"
+import { Message, MessageContent } from "@/styles/base-nova/ui/message"
 import {
   MessageScroller,
   MessageScrollerButton,
@@ -21,8 +21,8 @@ import {
   MessageScrollerProvider,
   MessageScrollerViewport,
   useMessageScroller,
-} from "@/styles/base-rhea/ui/message-scroller"
-import { Tabs, TabsList, TabsTrigger } from "@/styles/base-rhea/ui/tabs"
+} from "@/styles/base-nova/ui/message-scroller"
+import { Tabs, TabsList, TabsTrigger } from "@/styles/base-nova/ui/tabs"
 
 const messages = [
   {

@@ -1,5 +1,5 @@
-import { Card, CardAction, CardHeader } from "@/styles/base-rhea/ui/card"
-import { Skeleton } from "@/styles/base-rhea/ui/skeleton"
+import { Card, CardAction, CardHeader } from "@/styles/base-nova/ui/card"
+import { Skeleton } from "@/styles/base-nova/ui/skeleton"
 
 export function AnalyticsCard() {
   return (

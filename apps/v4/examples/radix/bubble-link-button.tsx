@@ -6,7 +6,7 @@ import {
   Bubble,
   BubbleContent,
   BubbleGroup,
-} from "@/styles/radix-rhea/ui/bubble"
+} from "@/styles/radix-nova/ui/bubble"
 
 export function BubbleLinkButtonDemo() {
   return (

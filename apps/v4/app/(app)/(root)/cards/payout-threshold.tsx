@@ -1,7 +1,7 @@
 import { Cancel01Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 
-import { Button } from "@/styles/base-rhea/ui/button"
+import { Button } from "@/styles/base-nova/ui/button"
 import {
   Card,
   CardAction,
@@ -10,14 +10,14 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/base-rhea/ui/card"
+} from "@/styles/base-nova/ui/card"
 import {
   Field,
   FieldDescription,
   FieldGroup,
   FieldLabel,
-} from "@/styles/base-rhea/ui/field"
-import { Progress } from "@/styles/base-rhea/ui/progress"
+} from "@/styles/base-nova/ui/field"
+import { Progress } from "@/styles/base-nova/ui/progress"
 import {
   Select,
   SelectContent,
@@ -25,8 +25,8 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/styles/base-rhea/ui/select"
-import { Textarea } from "@/styles/base-rhea/ui/textarea"
+} from "@/styles/base-nova/ui/select"
+import { Textarea } from "@/styles/base-nova/ui/textarea"
 
 const CURRENCIES = [
   { label: "USD — United States Dollar", value: "usd" },

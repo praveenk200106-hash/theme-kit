@@ -3,7 +3,7 @@ import {
   BubbleContent,
   BubbleGroup,
   BubbleReactions,
-} from "@/styles/aria-rhea/ui/bubble"
+} from "@/styles/aria-nova/ui/bubble"
 
 export function BubbleDemo() {
   return (

@@ -3,7 +3,7 @@ import {
   BubbleContent,
   BubbleGroup,
   BubbleReactions,
-} from "@/styles/radix-rhea/ui/bubble"
+} from "@/styles/radix-nova/ui/bubble"
 
 export function BubbleDemo() {
   return (

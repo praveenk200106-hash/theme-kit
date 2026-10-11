@@ -5,8 +5,8 @@ import { RotateCwIcon } from "lucide-react"
 import { toast } from "sonner"
 
 import { createChat, getMessageText } from "@/lib/ai"
-import { Bubble, BubbleContent } from "@/styles/radix-rhea/ui/bubble"
-import { Button } from "@/styles/radix-rhea/ui/button"
+import { Bubble, BubbleContent } from "@/styles/radix-nova/ui/bubble"
+import { Button } from "@/styles/radix-nova/ui/button"
 import {
   Card,
   CardAction,
@@ -15,9 +15,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/styles/radix-rhea/ui/card"
-import { Marker, MarkerContent } from "@/styles/radix-rhea/ui/marker"
-import { Message, MessageContent } from "@/styles/radix-rhea/ui/message"
+} from "@/styles/radix-nova/ui/card"
+import { Marker, MarkerContent } from "@/styles/radix-nova/ui/marker"
+import { Message, MessageContent } from "@/styles/radix-nova/ui/message"
 import {
   MessageScroller,
   MessageScrollerButton,
@@ -25,12 +25,12 @@ import {
   MessageScrollerItem,
   MessageScrollerProvider,
   MessageScrollerViewport,
-} from "@/styles/radix-rhea/ui/message-scroller"
+} from "@/styles/radix-nova/ui/message-scroller"
 import {
   Tooltip,
   TooltipContent,
   TooltipTrigger,
-} from "@/styles/radix-rhea/ui/tooltip"
+} from "@/styles/radix-nova/ui/tooltip"
 
 const chat = createChat()
   .user("Can you summarize the incident channel?")

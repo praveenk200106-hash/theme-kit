@@ -1,10 +1,10 @@
-import { Bubble, BubbleContent } from "@/styles/base-rhea/ui/bubble"
+import { Bubble, BubbleContent } from "@/styles/base-nova/ui/bubble"
 import {
   Message,
   MessageContent,
   MessageFooter,
   MessageHeader,
-} from "@/styles/base-rhea/ui/message"
+} from "@/styles/base-nova/ui/message"
 
 export function MessageHeaderFooterDemo() {
   return (

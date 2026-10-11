@@ -1,0 +1,8 @@
+npm warn Unknown project config "auto-install-peers". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+npm warn Unknown project config "link-workspace-packages". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+▲ Next.js 16.3.8
+- Local:         http://localhost:4000
+- Network:       http://172.30.16.1:4000
+✓ Ready in 1355ms
+✓ Running next.config.mjs took 98ms
+[MDX] generated files in 24.70010000000002ms

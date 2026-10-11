@@ -78,12 +78,22 @@ export default function IndexPage() {
           __html: JSON.stringify(websiteJsonLd).replace(/</g, "\\u003c"),
         }}
       />
-      <PageHeader className="md:**:[.container]:pb-8 lg:**:[.container]:pb-12">
+      <PageHeader className="relative overflow-hidden md:**:[.container]:pb-8 lg:**:[.container]:pb-12">
+        <div
+          aria-hidden="true"
+          className="magic-glow pointer-events-none absolute inset-0"
+        />
+        <div
+          aria-hidden="true"
+          className="magic-dots pointer-events-none absolute inset-0"
+        />
         <Announcement />
-        <PageHeaderHeading className="max-w-4xl">{title}</PageHeaderHeading>
+        <PageHeaderHeading className="relative max-w-4xl">
+          <span className="magic-gradient-text">{title}</span>
+        </PageHeaderHeading>
         <PageHeaderDescription>{description}</PageHeaderDescription>
         <PageActions>
-          <Button asChild className="h-[35px]">
+          <Button asChild className="magic-shimmer-btn h-[35px]">
             <Link href="/docs/installation">Get Started</Link>
           </Button>
           <Button asChild variant="secondary">
